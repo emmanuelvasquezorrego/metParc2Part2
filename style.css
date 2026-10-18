@@ -337,7 +337,8 @@ h1, h2, h3 {
   }
 
   .features {
-    padding: 110px 0 60px;
+    align-items: flex-start;
+    padding: 40px 0 60px;
   }
 
   .features__title {
