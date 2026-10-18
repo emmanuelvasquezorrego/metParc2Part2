@@ -297,23 +297,38 @@ h1, h2, h3 {
   }
 
   .hero__inner {
-    row-gap: 40px;
+    row-gap: 12px;
+    column-gap: 8px;
     padding-top: 110px;
     padding-bottom: 40px;
   }
 
   .hero__text {
+    display: contents;
+  }
+
+  .hero__text h1, .hero__text p {
     grid-column: 1 / -1;
+    margin-bottom: 12px;
   }
 
   .hero__buttons {
+    grid-column: 1 / 8;
+    grid-row: 3;
+    width: 100%;
     flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    text-align: center;
     gap: 12px;
   }
 
   .hero__image {
-    grid-column: 3 / 11;
-    max-width: 140px;
+    grid-column: 9 / 13;
+    grid-row: 3;
+    align-self: center;
+    justify-self: center;
+    max-width: 95px;
   }
 
   .features {
