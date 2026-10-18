@@ -296,6 +296,10 @@ h1, h2, h3 {
     display: none;
   }
 
+  .hero {
+    min-height: auto;
+  }
+
   .hero__inner {
     row-gap: 12px;
     column-gap: 8px;
